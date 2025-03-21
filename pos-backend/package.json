@@ -1,0 +1,31 @@
+{
+  "name": "pos-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@paypal/react-paypal-js": "^8.8.2",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "paypal-rest-sdk": "^1.8.1",
+    "razorpay": "^2.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
