@@ -1,0 +1,42 @@
+/* SocialMediaButtons.css */
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media ul li {
+    margin: 0 15px;
+  }
+  
+  .social-media ul li a.social-icon {
+    position: relative;
+    display: inline-block;
+    color: #000; /* Boja ikonica */
+    font-size: 24px; /* Veličina ikonica */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media ul li a.social-icon:hover {
+    color: #ffcc00; /* Boja ikonica na hover */
+  }
+  
+  /* Animacija za pulsirajući sjaj */
+  .social-media ul li a.social-icon {
+    animation: pulse-glow 2s infinite ease-in-out;
+  }
+  
+  @keyframes pulse-glow {
+    0% {
+      filter: drop-shadow(0 0 20px rgba(255, 204, 0, 0.9)); 
+    }
+    50% {
+      filter: drop-shadow(0 0 30px rgba(255, 215, 0, 0.9)); 
+    }
+    100% {
+      filter: drop-shadow(0 0 20px rgba(255, 77, 0, 0.9)); 
+    }
+  }
